@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stations">
+        <item>Radio rocks</item>
+        <item>New Rock</item>
+        <item>Radio rocks OE</item>
+        <item>UA Rock</item>
+        <item>Hard&amp;Heavy</item>
+        <item>Ballads</item>
+        <item>Beatles</item>
+        <item>Zaycev-NewRock</item>
+        <item>Swiss Jazz</item>
+    </string-array>
+</resources>

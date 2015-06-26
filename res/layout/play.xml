@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fragment_play"
+                android:background="@drawable/background">
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_play"
+            android:id="@+id/button_play"
+            android:textColor="#ff000000"
+            android:layout_alignTop="@+id/button_stop" android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_stop"
+            android:textColor="#ff000000"
+            android:id="@+id/button_stop"
+            android:layout_marginBottom="26dp" android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/button_play"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:id="@+id/artist" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp" android:editable="false" android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:id="@+id/title" android:layout_below="@+id/artist" android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp" android:textStyle="bold"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/albumArt" android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+</RelativeLayout>

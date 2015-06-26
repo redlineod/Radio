@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Радио</string>
+    <string name="menu_exit">Выход</string>
+    <string name="menu_settings">Настройки</string>
+
+</resources>
